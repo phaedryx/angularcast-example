@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyString
+  pub_date: 2013-04-25 19:42:28
+  video_url: MyString
+  link: MyString
+  guid: MyString
+  duration: MyString
+  source: MyString
+
+two:
+  title: MyString
+  description: MyString
+  pub_date: 2013-04-25 19:42:28
+  video_url: MyString
+  link: MyString
+  guid: MyString
+  duration: MyString
+  source: MyString

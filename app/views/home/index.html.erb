@@ -1,0 +1,17 @@
+<div class='row' data-ng-controller='EpisodesController'>
+  <div id='episode-view-container' class='span8'>
+    <div id='episode-view' data-ng-show='selectedEpisode'>
+      <h3>{{ selectedEpisode.title }}</h3>
+      <div id='player'></div>
+      <p>{{ selectedEpisode.description }}</p>
+    </div>
+  </div>
+  <div id='episode-list-container' class='span4'>
+    <h3>Episodes</h3>
+    <ul id='episode-list'>
+      <li data-ng-repeat='episode in episodes' data-ng-class='{active: $index == selectedRow}' data-ng-click='selectEpisode(episode, $index)'>
+        {{ episode.title }} ({{ episode.duration }})
+      </li>
+    </ul>
+  </div>
+</div>
