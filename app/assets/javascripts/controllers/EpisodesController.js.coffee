@@ -6,5 +6,4 @@ App.controller 'EpisodesController', ['$scope', 'Episode', ($scope, Episode) ->
   $scope.selectEpisode = (episode, row) ->
     $scope.selectedEpisode = episode
     $scope.selectedRow = row
-
 ]
